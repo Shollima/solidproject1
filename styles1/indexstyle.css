@@ -3,21 +3,21 @@
 	padding: 0;
 	margin: 0;
 }
-body{
+	body{
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(39, 38, 38);
+	overflow-x: hidden;
 }
-.header{
+	.header{
 	border: 0px solid rgb(252, 13, 13);
 	display: flex;
+	max-width: 100%;
 	padding: 3px;
 	background-color: #000;
-	overflow: hidden;
 	justify-content: space-between;
-}
-	
-.logo{
+}	
+	.logo{
 	border: 0px solid rgb(252, 13, 13);
 	width: 200px;
 	height: 70px;
@@ -26,39 +26,16 @@ body{
 	display: flex;
 	flex-direction: start;
 }
-
-.logo_add{
-	border: 0px solid red;
+	.add_area{
+	border: 0px solid rgb(252, 13, 13);
+	min-width: 400px;
 	display: flex;
 	flex-direction: row;
-}
-
-.add_area{
-	border: 0px solid rgb(252, 13, 13);
-	display: flex;
-	overflow: hidden;
-}
-	.contact_add{
-	border: 0px solid rgb(252, 13, 13);
-	width: 200px;
-	height: 70px;
-	overflow: hidden;
-	color: rgb(255, 255, 255);
-	font-size: 11.2px;
-	padding-top: 15px;
-	font-family: sans-serif;
-	display: flex;
-	flex-direction: column;
-	align-items: start;
+	justify-content: space-between;
 }
 	.add{
 	border: 0px solid rgb(252, 13, 13);
-	width: 180px;
-	height: 15px;
-	overflow: hidden;
-	margin-left: 8px;
 	display: flex;
-	align-items: start;
 }
 	.location{
 	border: 0px solid rgb(252, 13, 13);
@@ -67,13 +44,8 @@ body{
 }
 	.add2{
 	border: 0px solid rgb(252, 13, 13);
-	width: 140px;
-	height: 15px;
-	overflow: hidden;
-	margin-left: 8px;
-	margin-top: 3px;
 	display: flex;
-	align-items: start;
+	
 }
 	.mail{
 	border: 0px solid rgb(252, 13, 13)d;
@@ -82,112 +54,68 @@ body{
 }
 	.add3{
 	border: 0px solid rgb(252, 13, 13);
-	width: 120px;
-	height: 15px;
-	overflow: hidden;
-	margin-left: 8px;
 	display: flex;
-	align-items: start;
 }
 	.phone{
 	border: 0px solid rgb(252, 13, 13);
 	width: 20px;
 	height: 15px;
-	margin-top: 2px;
-
 }
-
-.nav_div{
-	border: 0px solid red;
+	.nav_div{
+	border: 0px solid rgb(252, 13, 13);
 	display: flex;
 	flex-direction: row;
 }
-.nav{
+	.nav{
 	border: 0px solid rgb(252, 13, 13);
 	display: flex;
 	justify-content: space-between;
-	width: 135px;
-	height: 40px;
+	width: 90px;
+	height: 20px;
 	overflow: hidden;
-	margin-top: 15px;
+	margin-top: 25px;
 }
-.home_nav{
+	.home_nav{
 	border: 0px solid rgb(252, 13, 13);
 	width: 45px;
-	
 }
-friends_nav{
-	border: 0px solid rgb(252, 13, 13);
-	width: 40px;
-	height: 38px;
-	float: left;
-	margin-left: 30px;
-}
-.mssg_nav{
+	.mssg_nav{
 	border: 0px solid rgb(252, 13, 13);
 	width: 45px;
-
 }
-
-
-.avatar_area{
+	.avatar{
 	border: 0px solid rgb(252, 13, 13);
-	width: 120px;
-	height: 70px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-}
-.userid_display{
-	border: 0px solid rgb(252, 13, 13);
-	width: 120px;
-	height: 12px;
-	overflow: hidden;
-}
-.avatar{
-	border: 0px solid rgb(252, 13, 13);
-	width: 50px;
-	height: 48px;
-	margin-top: 12px;
+	width: 30px;
+	height: 33px;
+	margin-top: 20px;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
-.user_avatar{
-	height: 45px;
+	.user_avatar{
+	height: 30px;
 }
-.drop_menue{
+	.drop_menue{
 	border:0px solid rgb(252, 13, 13);
-	width: 35px;
+	width: 15px;
 	font-family: sans-serif;
-	font-size: 35px;
+	font-size: 25px;
 	color: rgb(255, 255, 255);
 	margin: 15px;
+	padding-top: 5px;
 	display: flex;
 	justify-content: center;
-	
 }
-
-
-
-
-
-
-
-.main_container{
-	border: 0px solid red;
+	.main_container{
+	border: 0px solid rgb(252, 13, 13);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
-
-.slide1{
-	border: 0px solid red;
+	.slide1{
+	border: 0px solid rgb(252, 13, 13);
 	margin: 10px;
 	display: flex;
 	min-width: 100px;
@@ -195,9 +123,8 @@ friends_nav{
 	align-items: center;
 	justify-content: center;
 }
-
-.container{
-		border: 0px solid red;
+	.container{
+		border: 0px solid rgb(252, 13, 13);
 		display: flex;
 		flex-wrap: wrap;
 		min-width: 50px;
@@ -205,40 +132,35 @@ friends_nav{
 		align-items: center;
 		justify-content: center;	
 }
-
-
-.cont{
-	border: 0px solid red;
+	.cont{
+	border: 0px solid rgb(252, 13, 13);
 	margin: 10px;
 	height: 250px;
 	width: 500px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
-
-.conts{
-	border: 0px solid red;
+	.conts{
+	border: 0px solid rgb(252, 13, 13);
 	margin: 10px;
 	height: 250px;
 	width: 500px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
-
-
-
-.footer{
+	.footer{
 	border: 0px solid rgb(252, 13, 13);
 	width: 100%;
 	padding: 10px;
 	margin: 10px auto 10px auto;
 	background-color: #000;
 	font-family: sans-serif;
+	font-size: 11px;
 	color:rgb(255, 255, 255);
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
